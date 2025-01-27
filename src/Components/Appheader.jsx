@@ -9,10 +9,10 @@ const Appheader = () => {
     
 
   return (
-    <div className="flex items-center justify-around shadow-md py-4">
+    <div className="flex items-center justify-between shadow-md gap-2 py-4 mx-4">
       <div className=" flex items-center gap-2">
         <BiSolidCameraMovie className="text-5xl" />
-        <h1 className="text-4xl font-bold italic font-serif">INFO FLIX</h1>
+        {/* <h1 className="text-4xl font-bold italic font-serif">INFO FLIX</h1> */}
       </div>
       <div className="menu flex items-center gap-6">
         <NavLink
